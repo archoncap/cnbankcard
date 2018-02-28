@@ -8,7 +8,7 @@
 支付宝提供的接口。按以下格式发送HTTP请求即可。
 
 ```
-curl "https://ccdcapi.alipay.com/validateAndCacheCardInfo.json?_input_charset=utf-8&cardNo=银行卡卡号&cardBinCheck=true"
+curl -s "http://ccdcapi.alipay.com/validateAndCacheCardInfo.json?_input_charset=utf-8&cardNo=4033920032360564&cardBinCheck=true"
 ```
 
 例子：
